@@ -1,6 +1,16 @@
 # tf-guardduty
 Terraform sample code to enable and notify GuardDuty for all regions
 
+## Directories
+
+```
+.
+├── hgsgtk-dev
+└── modules
+    ├── chatbot <- module for AWS Chatbot
+    └── guardduty <- module for Guard Duty
+```
+
 ## Getting Started
 
 - install `tfenv` to switch terraform version.
@@ -20,7 +30,7 @@ terraform init
 
 Create an S3 bucket to store the tfstate
 
-## apply
+## Apply
 
 ```
 terraform apply -var="aws_account_id=<your-account>"
