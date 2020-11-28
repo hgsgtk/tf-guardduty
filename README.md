@@ -1,5 +1,6 @@
 # tf-guardduty
-Terraform sample code to enable and notify GuardDuty for all regions
+
+Terraform sample code to enable GuardDuty and notify GuardDuty findings for all regions
 
 ## Structure
 
